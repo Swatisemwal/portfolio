@@ -17,6 +17,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  privee
 
 } from "../assets";
 
@@ -100,10 +101,23 @@ const experiences = [
     iconBg: "#2c335c",
     date: "March 2024 - November 2024",
     points: [
-      "Enhanced user experience by optimizing components forefficiency and minimizing load times, reducing page load by 30%.",
+      "Enhanced user experience by optimizing components for efficiency and minimizing load times, reducing page load by 30%.",
       "Integrated RESTful APIs to ensure dynamic content and updated user data on the client side, troubleshooting and resolving front-end issues for a smooth workflow",
       "Built a comprehensive admin dashboard for bookings, allowing client administrators to efficiently manage bookings, view analytics, and track user engagement.",
       "Implemented complex data visualization features with charts and tables to present booking trends, using React and charting libraries.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Mhj Pharmaconcepts Private Limited",
+    icon: tesla,
+    iconBg: "#2c335c",
+    date: "july 2025 - Present",
+    points: [
+      "Built a lounge booking web application with an admin dashboard to manage reservations, analytics, and user engagement.",
+      "Integrated RESTful APIs for real-time booking data and dynamic content updates",
+      "Developed interactive charts and tables to visualize booking trends and metrics.",
+      "Contributed to two e-commerce websites by building responsive UI components and integrating product and order APIs.",
     ],
   },
 ];
@@ -171,6 +185,27 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://www.mayanksrudrakshresort.com/",
+  },
+  {
+    name: "Privee The Ecstasy",
+    description:
+      "A modern club and lounge website built with Next.js (React) and Tailwind CSS, featuring dynamic event data via APIs. Users can explore events, view galleries, and seamlessly book tables or register for walk-ins through a responsive, high-end interface.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: privee,
+    source_code_link: "https://www.priveenewdelhi.com/",
   },
 ];
 

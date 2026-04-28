@@ -80,43 +80,43 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Address</span>
-            <span className='py-4 px-6  text-gray-400 font-medium'
+          <label className='flex '>
+            <span className='text-white font-medium'>Address</span>
+            <span className=' px-6  text-gray-400 font-medium'
             >Bhajanpura, Delhi - 110053</span>
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Phone No</span>
-            <span className='py-4 px-6  text-gray-400 font-medium'
+          <label className='flex '>
+            <span className='text-white font-medium '>Phone No</span>
+            <span className='px-6  text-gray-400 font-medium'
             >7503963518</span>
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Email</span>
-            <span className='py-4 px-6  text-gray-400 font-medium'
+          <label className='flex '>
+            <span className='text-white font-medium '>Email</span>
+            <span className='px-6  text-gray-400 font-medium'
             >swati.semwal17@gmail.com </span>
           </label>
           
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Github</span>
-            {/* <span className='py-4 px-6  text-gray-400 font-medium'
+          <label className='flex '>
+            <span className='text-white font-medium '>Github</span>
+            {/* <span className='px-6  text-gray-400 font-medium'
             >   */}
             <a
             href='https://github.com/Swatisemwal'
             target='_blank'
             rel='noopener noreferrer'
-            className='py-4 px-6 text-gray-400 font-medium hover:underline'
+            className='px-6 text-gray-400 font-medium hover:underline'
           >
             github.com/Swatisemwal
           </a>
           {/* </span> */}
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>LinkedIn</span>
+          <label className='flex '>
+            <span className='text-white font-medium '>LinkedIn</span>
             <a
     href='https://www.linkedin.com/in/swati-semwal-d/'
     target='_blank'
     rel='noopener noreferrer'
-    className='py-4 px-6 text-gray-400 font-medium hover:underline'
+    className='px-6 text-gray-400 font-medium hover:underline'
   >
     linkedin.com/in/swati-semwal-d
   </a>
@@ -126,7 +126,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[450px] h-[350px]'
       >
         <EarthCanvas />
       </motion.div>
